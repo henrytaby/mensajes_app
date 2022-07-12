@@ -33,7 +33,7 @@ public class Inicio {
                     mensajesService.borrarMensaje();
                     break;
                 case 4:
-                    mensajesService.borrarMensaje();
+                    mensajesService.editarMensaje();
                     break;
                 default:
                     System.out.println("Opción incorrecta");
